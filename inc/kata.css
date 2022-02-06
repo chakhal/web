@@ -1,0 +1,58 @@
+div#kata_page {
+	background-color: #000;
+	text-align: justify;
+	color: #AAA;
+}
+
+/******************************************/
+/*         POUR LES SOUS-MENUS            */
+/******************************************/
+
+div#kta_sommaire {
+	position: relative;
+	background-image: url(./kta_fond_sommaire.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 215px;
+	min-height: 200px;
+}
+div#kta_sommaire a {
+	display: block;
+	float: left;
+	width: auto;
+	padding: 0.5em;
+	margin: 0.1em;
+	border: thin dashed #AAA;
+	background-color: #333;
+	color: #888;
+	font-weight: bold;
+	text-decoration: none;
+	}
+#kta_sommaire a:hover { background-color: #DDD; }
+
+dt { font-weight: bold; text-decoration: underline;}
+dd { border-left: thin dotted #AAA; padding: 0 0 0.5em 1em; }
+dd p { text-indent: 0; margin: 0 1em; }
+
+div.article { border: thin dashed #AAA; padding: 1em; position: relative; }
+div.article h3 { border-bottom: thin dashed #AAA; text-transform: uppercase; font-size: 2em; letter-spacing: 0.3em;}
+
+div.article p.first_p {	text-indent: 0 }
+div.article p.first_p:first-line {  text-transform: uppercase; font-weight: bold; }
+div.article p.first_p:first-letter {
+	float: left;
+	position: relative;
+	font-size: 2em;
+	font-style: oblique;
+	background-color: #FFF;
+	padding: 0.1em;
+	margin: 0 0.1em 0 0;
+	border: medium solid #999;
+}
+
+
+div.article img {
+	float: left;
+	padding: 0 1em 0 0;
+	height: 17em;
+}
